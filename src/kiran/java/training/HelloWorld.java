@@ -13,6 +13,7 @@ public class HelloWorld {
 		StaticFieldDemo O3 = new StaticFieldDemo(6);
 		System.out.println(O3.getStaticField());
 		System.out.println(O1.getStaticField());
+		System.out.println(O2.getStaticField());
 		
 	}
 
