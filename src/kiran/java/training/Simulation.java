@@ -19,10 +19,12 @@ public class Simulation {
 	
 	public void setseviceTime(double serviceTime){
 		this.serviceTime = serviceTime;
+		System.out.println(serviceTime);
 	}
 
 	public void setidleTime(double idleTime){
 		this.idleTime = idleTime;
+		System.out.println(idleTime);
 	}
 
 	public double calcServiceTime(double random){
@@ -67,7 +69,7 @@ public class Simulation {
 				simB.setidleTime(idletimeB);
 				if(generateRandom()<=0.9){
 					countB++;
-					
+					System.out.println(countB);
 				}
 			}
 			clock += 6;
