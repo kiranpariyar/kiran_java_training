@@ -9,6 +9,7 @@ public class EightQueenProblem {
 		// Check this column on upper side
 		for (i = row - 1; i >= 0; i--) {
 			if (board[i][column] == 1) {
+				System.out.println("// Check this column on upper side");
 				return false;
 			}
 		}
